@@ -24,6 +24,7 @@
     
 ## Dataset Download
   * [here](https://drive.google.com/drive/folders/1NILKG6uPw0bDJ8y6ajXWfp9HhlaToLac?usp=sharing)
+  * [**Spelling It Out: Real–Time ASL Fingerspelling Recognition**](https://empslocal.ex.ac.uk/people/staff/np331/publications/PugeaultBowden2011b.pdf)
   
 
   
