@@ -7,7 +7,7 @@
   * The code is trained and tested on **ASL Dataset** in numpy file
   * If there is something wrong with the code, please contact me. Thanks !
   
-## Environment
+## Requirements
   * **Python 3.5.6**
   * pytorch 0.3.1
   * tensorflow-gpu 1.10.0
@@ -21,5 +21,9 @@
     * #define CUDNN_MINOR      1
     * #define CUDNN_PATCHLEVEL 10
     * #define CUDNN_VERSION    (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
+    
+## Dataset Download
+  * [here](https://drive.google.com/drive/folders/1NILKG6uPw0bDJ8y6ajXWfp9HhlaToLac?usp=sharing)
+  
 
   
