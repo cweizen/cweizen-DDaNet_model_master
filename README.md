@@ -35,7 +35,7 @@
 -sr --s <weights decay parameter> --arch <model architecture> --depth <model depth> --subject <training/testing subject in training/testing stage> --save <path to save the model weighting> --toTensorform <data transform: 1 means -1~1> --epochs <training epochs>
 ```
 
-   **ArgumentParser example**
+   **Command example**
   ```python
 python main_RGBD_Smart_woVal_twopath_toTensorChoose_n30p160_noflip.py -sr --s 0.0001 --arch vgg_cbam_depth_gap --depth 15 --subject SubjectA --save ./use_now/n30p160_noflip/depth_map/toTensor0.5/first --toTensorform 1 --epochs 60
 ```
@@ -43,14 +43,27 @@ python main_RGBD_Smart_woVal_twopath_toTensorChoose_n30p160_noflip.py -sr --s 0.
 
   2. Run **confusion_matrix_for_newarch.py** for getting confusion matrix for certain Subject of Dataset. And **model_best.pth.tar** is the model weights with best testing accuracy.
   
-     **ArgumentParser elements**
+   **ArgumentParser elements**
   ```python
 --datapath <testing data location> --arch <model architecture> --depth <model depth> --subject <testing subject> --toTensorform <data_transform : 1 means -1~1> --normalization <confusion matrix value normalization or not> --model <testing model path>
 ```
 
-   **ArgumentParser example**
+   **Command example**
   ```python
 python confusion_matrix_for_newarch.py --datapath ./RGBD_Numpy_mid_n30p160_noflip --arch vgg_cbam_depth_gap --depth 15 --subject SubjectA --toTensorform 1 --normalization 0 --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectA_93.03/model_best.pth.tar
+```
+
+
+  3. Run **confusion_matrix_for_newarch_PR.py** for calculating precision, recall and F-score.
+  
+   **ArgumentParser elements**
+  ```python
+--datapath <testing data location> --arch <model architecture> --depth <model depth> --subject <testing subject> --toTensorform <data_transform : 1 means -1~1> --normalization <confusion matrix value normalization or not> --model <testing model path>
+```
+
+   **Command example**
+  ```python
+python confusion_matrix_for_newarch_PR.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectC_96.47/model_best.pth.tar --subject SubjectC --normalization 1
 ```
   
 
