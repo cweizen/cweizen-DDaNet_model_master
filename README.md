@@ -38,7 +38,7 @@
       **Command example**
       ```python
       python main_RGBD_Smart_woVal_twopath_toTensorChoose_n30p160_noflip.py -sr --s 0.0001 --arch vgg_cbam_depth_gap --depth 15 --subject SubjectA --save     ./use_now/n30p160_noflip/depth_map/toTensor0.5/first --toTensorform 1 --epochs 60
-    ```
+        ```
 
 
   2. Run **confusion_matrix_for_newarch.py** for getting confusion matrix for certain Subject of Dataset. And **model_best.pth.tar** is the model weights with best testing accuracy.
