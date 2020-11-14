@@ -26,6 +26,13 @@
   * The ASL Dataset we use can be downloaded in [here](https://drive.google.com/drive/folders/1NILKG6uPw0bDJ8y6ajXWfp9HhlaToLac?usp=sharing)
   * The paper which proposed the ASL Dataset can be found in  [**Spelling It Out: Real–Time ASL Fingerspelling Recognition**](https://empslocal.ex.ac.uk/people/staff/np331/publications/PugeaultBowden2011b.pdf) 
     * [1] Pugeault, N., and Bowden, R. (2011). Spelling It Out: Real-Time ASL Fingerspelling Recognition In Proceedings of the 1st IEEE Workshop on Consumer Depth Cameras for Computer Vision, jointly with ICCV'2011
+    
+## Training Steps
+  * Run **main_RGBD_Smart_woVal_twopath_toTensorChoose_n30p160_noflip.py** with one GPU or multiple GPU to train the Network. Moreover, set your certain ArgumentParser or default one.
+  ```python
+var s = "-sr --s <weights decay parameter> --arch <model architecture> --depth <model depth> --subject <training/testing subject in training/testing stage> --save <path to save the model weighting> --toTensorform <data transform: 1 means -1~1> --epochs <training epochs>";
+alert(s);
+```
   
 
   
