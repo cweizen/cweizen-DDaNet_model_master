@@ -65,7 +65,23 @@ python confusion_matrix_for_newarch.py --datapath ./RGBD_Numpy_mid_n30p160_nofli
   ```python
 python confusion_matrix_for_newarch_PR.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectC_96.47/model_best.pth.tar --subject SubjectC --normalization 1
 ```
+
+
+  4. For obtaining **gradcam**, **feature map** and **attention mask**.
   
+  * **GradCAM**
+    * RGB stream
+
+   **Command example**
+  ```python
+python newarch_gradcam_depth_v1_RGB_getpoint.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectE_92.75/model_best.pth.tar --subject SubjectE --save test3/DSA_v1/thirdbottleneck/RGB
+```
+    * Depth stream
+
+   **Command example**
+  ```python
+python newarch_gradcam_depth_v1_depth_getpoint.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectE_92.75/model_best.pth.tar --subject SubjectE --save test4/DSA_v1/thirdbottleneck/depth
+```
 
   
 
