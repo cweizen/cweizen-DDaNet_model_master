@@ -69,7 +69,7 @@
 
   4. For obtaining **gradcam**, **feature map** and **attention mask**.
   
-      * **GradCAM**
+      **GradCAM**
        * RGB stream
 
       **Command example**
