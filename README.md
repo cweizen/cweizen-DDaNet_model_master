@@ -43,12 +43,12 @@
 
   2. Run **confusion_matrix_for_newarch.py** for getting confusion matrix for certain Subject of Dataset. And **model_best.pth.tar** is the model weights with best testing accuracy.
   
-   **ArgumentParser elements**
-  ```python
---datapath <testing data location> --arch <model architecture> --depth <model depth> --subject <testing subject> --toTensorform <data_transform : 1 means -1~1> --normalization <confusion matrix value normalization or not> --model <testing model path>
-```
+      **ArgumentParser elements**
+      ```python
+    --datapath <testing data location> --arch <model architecture> --depth <model depth> --subject <testing subject> --toTensorform <data_transform : 1 means     -1~1> --normalization <confusion matrix value normalization or not> --model <testing model path>
+        ```
 
-   **Command example**
+      **Command example**
   ```python
 python confusion_matrix_for_newarch.py --datapath ./RGBD_Numpy_mid_n30p160_noflip --arch vgg_cbam_depth_gap --depth 15 --subject SubjectA --toTensorform 1 --normalization 0 --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectA_93.03/model_best.pth.tar
 ```
