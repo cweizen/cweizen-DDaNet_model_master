@@ -3,8 +3,9 @@
   
 ## Statement
   * you can find the DDaNet model in **try_place/models/**
-  * you can train your Dataset with DDaNet by following the **Training Steps** shown below
   * The code is trained and tested on **ASL Dataset** in numpy file
+  * you can train your Dataset with DDaNet by following the **Training Steps** shown below
+  * you can get confusion_matix, GradCAM, Feature_maps of your Dataset by following the **Testing Steps** shown below
   * If there is something wrong with the code, please contact me. Thanks !
   
 ## Requirements
