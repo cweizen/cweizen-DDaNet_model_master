@@ -40,8 +40,9 @@
       python main_RGBD_Smart_woVal_twopath_toTensorChoose_n30p160_noflip.py -sr --s 0.0001 --arch vgg_cbam_depth_gap --depth 15 --subject SubjectA --save     ./use_now/n30p160_noflip/depth_map/toTensor0.5/first --toTensorform 1 --epochs 60
         ```
 
+## Testing Steps
 
-  2. Run **confusion_matrix_for_newarch.py** for getting confusion matrix for certain Subject of Dataset. And **model_best.pth.tar** is the model weights with best testing accuracy.
+  1. Run **confusion_matrix_for_newarch.py** for getting confusion matrix for certain Subject of Dataset. And **model_best.pth.tar** is the model weights with best testing accuracy.
   
       **ArgumentParser elements**
       ```python
@@ -54,7 +55,7 @@
       ```
 
 
-  3. Run **confusion_matrix_for_newarch_PR.py** for calculating precision, recall and F-score.
+  2. Run **confusion_matrix_for_newarch_PR.py** for calculating precision, recall and F-score.
   
       **ArgumentParser elements**
       ```python
@@ -67,7 +68,7 @@
       ```
 
 
-  4. For obtaining **gradcam**, **feature map** and **attention mask**.
+  3. For obtaining **gradcam**, **feature map** and **attention mask**.
   
       **GradCAM**
        * RGB stream
