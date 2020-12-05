@@ -1,6 +1,12 @@
+===========================================================================
+# Author
+WeiZen. Chen, YaoMao. Cheng
+
 # DDaNet_model
-  Implementation of DDaNet with backbone VGG.
-  
+  Implementation of DDaNet to deal with finger-spelling recognition for ASL RGB+D Dataset.
+
+===========================================================================
+
 ## Statement
   * you can find the DDaNet model in **try_place/models/**
   * The code is trained and tested on **ASL Dataset** in numpy file
