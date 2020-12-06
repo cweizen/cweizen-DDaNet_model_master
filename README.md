@@ -59,7 +59,7 @@ WeiZen. Chen, YaoMao. Cheng
       ```python
       python confusion_matrix_for_newarch.py --datapath ./RGBD_Numpy_mid_n30p160_noflip --arch vgg_cbam_depth_gap --depth 15 --subject SubjectA --toTensorform 1 --normalization 0 --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectA_93.03/model_best.pth.tar
       ```
-
+![image](https://github.com/cweizen/cweizen-DDaNet_model_master/blob/main/image/1.PNG)
 
   2. Run **confusion_matrix_for_newarch_PR.py** for calculating precision, recall and F-score.
   
