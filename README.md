@@ -91,7 +91,7 @@ WeiZen. Chen, YaoMao. Cheng
           ```
       ![image](https://github.com/cweizen/cweizen-DDaNet_model_master/blob/main/image/2.PNG)      
       **Average feature map**
-       * RGB stream
+      * RGB stream
 
           **Command example**
           ```python
