@@ -90,6 +90,7 @@ WeiZen. Chen, YaoMao. Cheng
             python newarch_gradcam_depth_v1_depth_getpoint.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectE_92.75/model_best.pth.tar --subject SubjectE --save test4/DSA_v1/thirdbottleneck/depth
           ```
       ![image](https://github.com/cweizen/cweizen-DDaNet_model_master/blob/main/image/2.PNG)
+      
       **Average feature map**
       * RGB stream
 
