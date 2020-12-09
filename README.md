@@ -1,6 +1,6 @@
 =================================================================
 # Author
-WeiZen. Chen, YaoMao. Cheng
+Shih-Hung Yang, Wei-Ren Chen, Wun-Jhu Huang, Yon-Ping Chen, Yao-Mao Cheng
 
 Implementation of **DDaNet: Dual-Path Depth-Aware Attention Network for Fingerspelling Recognition Using RGB-D Images**
 
