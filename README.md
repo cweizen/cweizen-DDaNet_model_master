@@ -1,10 +1,10 @@
-===========================================================================
+=================================================================
 # Author
 WeiZen. Chen, YaoMao. Cheng
 
   Implementation of DDaNet to deal with finger-spelling recognition for ASL RGB+D Dataset.
 
-===========================================================================
+=================================================================
 
 ## Statement
   * you can find the DDaNet model in **try_place/models/**
