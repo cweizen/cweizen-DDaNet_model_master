@@ -116,11 +116,11 @@ Implementation of **DDaNet: Dual-Path Depth-Aware Attention Network for Fingersp
 
 ## Citation:
 
-         InProceedings{Wang_2019_CVPR,
-         author = {Wang, Wenguan and Zhao, Shuyang and Shen, Jianbing and Hoi, Steven C. H. and Borji, Ali},
-         title = {Salient Object Detection With Pyramid Attention and Salient Edges},
-         booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition},
-         year = {2019}
+         InProceedings{
+         author = {Shih-Hung Yang, Wei-Ren Chen, Wun-Jhu Huang, Yon-Ping Chen},
+         title = {DDaNet: Dual-Path Depth-Aware Attention Network for Fingerspelling Recognition Using RGB-D Images},
+         booktitle = {The IEEE Access},
+         year = {2021}
          }
   
 
