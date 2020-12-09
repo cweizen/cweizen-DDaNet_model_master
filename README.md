@@ -2,7 +2,7 @@
 # Author
 WeiZen. Chen, YaoMao. Cheng
 
-  Implementation of DDaNet to deal with finger-spelling recognition for ASL RGB+D Dataset.
+Implementation of **DDaNet: Dual-Path Depth-Aware Attention Network for Fingerspelling Recognition Using RGB-D Images**
 
 =================================================================
 
