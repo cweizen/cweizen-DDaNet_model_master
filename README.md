@@ -90,8 +90,8 @@ Implementation of **DDaNet: Dual-Path Depth-Aware Attention Network for Fingersp
           python newarch_gradcam_depth_v1_depth_featuremap.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectA_93.03/model_best.pth.tar --subject SubjectA --save test_featuremap/DSA_v1/bottleneck_2before/depth
         ```
       ![image](https://github.com/cweizen/cweizen-DDaNet_model_master/blob/main/image/3.PNG)
-     **Depth-attention-mask**
-       **Command example**
+      **Depth-attention-mask**
+        **Command example**
        ```python
           python newarch_gradcam_depth_v1_depth_mask.py --toTensorform 1 --depth 15 --arch vgg_cbam_depth_gap --datapath ./RGBD_Numpy_mid_n30p160_noflip --model ./use_now/n30p160_noflip/depth_map/toTensor0.5/first/SubjectA_93.03/model_best.pth.tar --subject SubjectA --save test_featuremap/DSA_v1/bottleneck_3/mask
        ```
