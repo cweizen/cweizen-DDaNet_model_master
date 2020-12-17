@@ -7,7 +7,8 @@ Implementation of **DDaNet: Dual-Path Depth-Aware Attention Network for Fingersp
 =================================================================
 
 ## Statement
-  * you can find the DDaNet model in **try_place/models/**
+  * you can find the DDaNet model in **utils/models/**
+  * you can download the model weights [here](https://drive.google.com/drive/folders/1ofu7Lg4Pht6kOZ_AB6POPRs-rZ5BvCkB?fbclid=IwAR1SIlW2vMWlD1lo5NMzARctFMlbpekT2OX6nZ6F8IWHprt7SvJEyvngLqs)
   * The code is trained and tested on **ASL Dataset** in numpy file
   * you can train your Dataset with DDaNet by following the **Training Steps** shown below
   * you can get confusion_matix, GradCAM, Feature_maps of your Dataset by following the **Testing Steps** shown below
