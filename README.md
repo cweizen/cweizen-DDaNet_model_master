@@ -104,6 +104,3 @@ Implementation of **DDaNet: Dual-Path Depth-Aware Attention Network for Fingersp
          booktitle = {The IEEE Access},
          year = {2021}
          }
-  
-
-  
