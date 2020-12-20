@@ -102,6 +102,6 @@ Code contributor: Wei-Ren Chen and Yao-Mao Cheng
          InProceedings{
          author = {Shih-Hung Yang, Wei-Ren Chen, Wun-Jhu Huang, Yon-Ping Chen},
          title = {DDaNet: Dual-Path Depth-Aware Attention Network for Fingerspelling Recognition Using RGB-D Images},
-         booktitle = {The IEEE Access},
-         year = {2021}
+         booktitle = {IEEE Access},
+         year = {2020}
          }
