@@ -34,8 +34,8 @@ Code contributor: Wei-Ren Chen and Yao-Mao Cheng
   * The RAW ASL we use can be downloaded in [here](https://drive.google.com/drive/folders/1NILKG6uPw0bDJ8y6ajXWfp9HhlaToLac?usp=sharing)
   * The paper which proposed the ASL Dataset can be found in  [**Spelling It Out: Real–Time ASL Fingerspelling Recognition**](https://empslocal.ex.ac.uk/people/staff/np331/publications/PugeaultBowden2011b.pdf) 
     * [1] Pugeault, N., and Bowden, R. (2011). Spelling It Out: Real-Time ASL Fingerspelling Recognition In Proceedings of the 1st IEEE Workshop on Consumer Depth Cameras for Computer Vision, jointly with ICCV'2011
-    * The ASL after pre-processing can be download in [here](https://drive.google.com/drive/folders/1ncLtaONh0KWe0OOS4qvGiq0s-fwonjTS?usp=sharing)
-    
+  
+  * The ASL after pre-processing can be download in [here](https://drive.google.com/drive/folders/1ncLtaONh0KWe0OOS4qvGiq0s-fwonjTS?usp=sharing) 
 ## pre-processing steps
     * RGB : directly resize to 64x64 and save as .npy
     * Depth : (1) segment the hand region from RAW 16bit depth image and save as 8 bit image
