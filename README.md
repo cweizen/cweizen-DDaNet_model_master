@@ -4,7 +4,7 @@
 Shih-Hung Yang, Wei-Ren Chen, Wun-Jhu Huang, and Yon-Ping Chen (2020, Dec). **DDaNet: Dual-Path Depth-Aware Attention Network for Fingerspelling Recognition Using RGB-D Images. IEEE Access.** (Accepted).
 
 Code contributor: Wei-Ren Chen and Yao-Mao Cheng
-Please cite this paper if you use the code
+**Please cite this paper if you use the code**
 
 =================================================================
 
